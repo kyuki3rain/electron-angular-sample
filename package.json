@@ -1,5 +1,5 @@
 {
-  "name": "app-selector",
+  "name": "electron-angular-sample",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   ngOnInit(): void {
   }
-  title = 'app-selector';
+  title = 'electron-angular-sample';
   response = '';
 
   public ping(request: string) {

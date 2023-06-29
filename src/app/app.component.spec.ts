@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'app-selector'`, () => {
+  it(`should have as title 'electron-angular-sample'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('app-selector');
+    expect(app.title).toEqual('electron-angular-sample');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('app-selector app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('electron-angular-sample app is running!');
   });
 });
